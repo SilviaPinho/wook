@@ -1,0 +1,494 @@
+html {
+    background: linear-gradient(to bottom, rgb(195, 195, 195), #fff);
+    background: -moz linear-gradient(to bottom, rgb(195, 195, 195), #fff);
+    background: -o-linear-gradient(to bottom, rgb(195, 195, 195), #fff);
+    background: -ms-linear-gradient(to bottom, rgb(195, 195, 195), #fff);
+
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    height: auto;
+
+}
+
+#imagemlogo{
+   /* border: 1px solid grey;*/
+    width: 360px;
+    height: 100px;
+    position: relative;
+}
+
+
+
+body {
+    max-width: 990px;
+    background: white;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+}
+
+.pesquisa {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.btpesquisa {
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    position: absolute;
+    top: 35px;
+    /*bottom: -50px;*/
+    left: 500px
+    /*right: -50px;*/
+}
+
+
+#icones {
+    position: absolute;
+    margin-right: 10px;
+    left: 870px;
+    top: 75px;
+}
+
+
+#icones i {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 8px;
+}
+
+.icon {
+    color: #AFB0B2;
+    padding: 8px;
+}
+
+.icon:hover {
+    color: black;
+}
+
+
+
+/*.acordo{
+    position: static
+}*/
+
+main {
+    margin: 15px;
+    /* border: 1px solid grey;*/
+    margin-top: 0px;
+}
+
+#separadorheader {
+    position: relative;
+    width: 653px;
+    color: red;
+    top: 0;
+    bottom: 0;
+    left: 335px;
+    right: -335px;
+    margin: 0px;
+    clear: both;
+    text-align: center;
+}
+
+#separador {
+    margin-bottom: 0px;
+    clear: both;
+}
+
+
+
+
+
+nav {
+    margin: 0px;
+}
+
+#menu,
+#menu > li > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    text-align: center;
+    margin-right: 30px;
+
+}
+
+/*#menu{
+background-color: red;
+    }*/
+
+#menu > li > ul {
+    position: absolute;
+    background-color: grey;
+    display: none;
+}
+
+#menu > li:hover ul {
+    display: block;
+
+}
+
+#menu > li {
+    display: inline-block;
+
+
+}
+
+#menu a {
+
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    text-transform: uppercase;
+    display: block;
+
+}
+
+#menu a:hover {
+    background-color: #1f253c;
+    color: white;
+}
+
+#menu a:active {
+    font-weight: bold;
+}
+
+#menu a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
+.submenu a:hover {
+    /*background-color: #444a51;*/
+    background-color: red;
+}
+
+.padd {
+    padding-right: 35px;
+}
+
+#stickerNatal {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    -moz-border-radius: 65px;
+    -webkit-border-radius: 65px;
+    border-radius: 65px;
+    top: 70px;
+    bottom: -50px;
+    left: 180px;
+    right: -180px;
+    background: linear-gradient(to top left, #fff, red, #fff);
+    background: -moz linear-gradient(to top left, #fff,red, #fff);
+        background: -webkit-linear-gradient(to top left,#fff, red, #fff);
+    background: -o-linear-gradient(to top left,#fff,red, #fff), 100%;
+    background: -ms-linear-gradient(to top left,#fff,red, #fff), 100%;
+
+
+}
+
+.textosticker {
+    position: absolute;
+    text-align: center;
+    right: 15%;
+    left: 15%;
+    top: 30%;
+    /*width : 15%;
+	height : 15%;
+	max-width : 15%;
+	max-height : 15%;
+	margin : 0;
+	padding : 0;*/
+    color: white;
+}
+
+.data {
+    /*margin-bottom:5px;*/
+    padding: 10px;
+    /* border: 1px solid grey;*/
+    border-top: 0px;
+    */ padding-left: 0px;
+    padding-right: 0px;
+}
+
+#tabhorizontal {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: red;
+    width: 210px;
+    display: block;
+    float: left;
+    background-color: black;
+
+
+
+
+}
+
+#tabhorizontal li {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px solid yellow;*/
+}
+
+#tabhorizontal a {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    display: block;
+
+}
+
+#tabhorizontal a:hover {
+    background-color: rgb(65, 65, 65);
+    color: rgb(0, 157, 224);
+
+}
+#tabhorizontal a:hover.a{
+    display: block;
+} 
+
+
+
+.triangulo:before {
+    content: "";
+    display: none;
+    /*display:inline-block;*/
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid red;
+    position: absolute;
+    right: 750px;
+}
+
+#livros {
+    /* border: 1px solid grey;*/
+    /*padding: 10px;*/
+    padding-left: 0px;
+    padding-right: 0px;
+    display: table;
+    clear: both;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 25px;
+    
+
+}
+
+.texto {
+    /*clear: left;*/
+    font-weight: bold;
+    
+    /* display:block;*/
+}
+
+.livrocapa {
+    width: 150px;
+    height: 230px;
+   
+}
+
+.livrocapa:hover {
+    border: 1px solid grey;
+}
+
+.janelalivros {
+    /*border: 1px solid grey;*/
+    float: left;
+    height: 300px;
+    text-align: center;
+    padding-right: 20px;
+    margin: 0px;
+    display: table;
+     color:black;
+    }
+
+.janelalivros a {
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+}
+
+.janelalivros img:hover {
+    border: 1px solid grey;
+    box-shadow: 1px 2px 2px;
+}
+
+.janelalivros:hover {
+    font-weight: bold;
+
+}
+
+.ultima {
+    padding-right: 0px;
+}
+
+#newsletter {
+    /*border: 1px solid grey;*/
+    float: right;
+
+
+    height: 380px;
+    width: 275px;
+    margin-bottom: 25px;
+
+}
+
+.caixa {
+    height: 330px;
+    width: 275px;
+    background-color: darkgray;
+    padding-top: 5px;
+}
+
+.formnews {
+    margin: 10px;
+}
+
+#nome,
+#email {
+    height: 30px;
+    margin: 2px;
+    margin-left: 0px;
+
+}
+
+#btsubmit {
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 2px;
+}
+
+.separadorpromocoes {
+    border-top: 1px dashed #ccc;
+    clear: both;
+
+}
+
+#destaque {
+
+    /*border: 1px solid grey;*/
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.balao {
+    background: red;
+    border-radius: 9px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+
+.balao:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid red;
+    bottom: -20px;
+    left: 20%;
+}
+
+.balao.cinza {
+    text-align: center;
+    background-color: gray;
+}
+
+.balao.cinza:after {
+    border-top: 20px solid gray;
+}
+
+.balao.verde {
+    background-color: green;
+}
+
+.balao.verde:after {
+    border-top: 20px solid green;
+}
+
+#balaointeiro {
+    position: relative;
+    left: 470px;
+
+}
+
+#balaointeiro2 {
+    position: relative;
+    left: 580px;
+
+}
+
+#balaointeiro3 {
+    position: relative;
+    left: 690px;
+
+}
+
+.dentro {
+    text-align: center;
+    color: white;
+
+}
+
+#footer1 {
+    border: 1px solid grey;
+    /* background: white;*/
+    clear: both;
+}
+
+#footer2 {
+    border: 1px solid grey;
+    background: white;
+    clear: both;
+    width: 100px;
+}
+
+.emdestaque {
+    float: left;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer1 {
+    background-color: grey;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/*.footer2{
+    background-color: black;
+    color:white;
+    width:*/
+
+}
+
+/*.menuBox li a:hover {
+    background: url(../images/menu_hover.png) repeat-x 0 bottom;
+}*/

@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="../fontes/fontawesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!--<img src="../imagens/acordo_ortografico.png" class="acordo">-->
+    <header>
+        <div id="imagemlogo">
+            <script>
+                var logo = new Array();
+                logo[0] = '<a href="#"><img src="../imagens/logo1.jpg"></a>'
+                logo[1] = '<a href="#"><img src="../imagens/logo2.jpg"></a>'
+                logo[2] = '<a href="#"><img src="../imagens/logo3.jpg"></a>'
+                logo[3] = '<a href="#"><img src="../imagens/logo4.jpg"></a>'
+                logo[4] = '<a href="#"><img src="../imagens/logo5.jpg"></a>'
+                logo[5] = '<a href="#"><img src="../imagens/logo6.jpg"></a>'
+                logo[6] = '<a href="#"><img src="../imagens/logo7.jpg"></a>'
+                logo[7] = '<a href="#"><img src="../imagens/logo8.jpg"></a>'
+                logo[8] = '<a href="#"><img src="../imagens/logo9.jpg"></a>'
+                logo[9] = '<a href="#"><img src="../imagens/logo10.jpg"></a>'
+
+                var mudalogo = Math.floor(Math.random() * (logo.length));
+                document.write(logo[mudalogo]);
+            </script>
+        </div>
+        <form class="pesquisa" action="pesquisa.php">
+            <input type="search" class="btpesquisa" placeholder="Pesquisar" class="palavrapesquisa">
+        </form>
+        <div id="cidades"></div>
+        <div id="icones">
+            <a href="https://pt-pt.facebook.com">  
+              <i class="fa fa-facebook-official icon" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/"> <i class="fa fa-twitter icon" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/"> <i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
+            <a href="https://youtube.com/">  <i class="fa fa-youtube icon" aria-hidden="true"></i></a>
+        </div>
+
+        <hr id="separadorheader">
+
+        <nav>
+            <ul id="menu">
+                <li class="padd"><a href="#">Ensino </a>
+                    <ul class="submenu">
+                        <li class="submenu"><a href="#">Livros escolares</a></li>
+                        <li class="submenu"> <a href="#">Auxiliares de ensino</a></li>
+                        <li class="submenu"><a href="#">Livros escolares</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="padd"><a href="#">Internacional</a>
+                    <ul>
+                        <li class="submenu"> <a href="#">Livros em francês</a></li>
+                        <li class="submenu"><a href="#">Livros em inglês</a></li>
+                        <li class="submenu"><a href="#">Livros em espanhol</a></li>
+                    </ul>
+                </li>
+                <li class="padd"><a href="#">eBooks</a>
+
+                    <ul>
+                        <li class="submenu"><a href="#">Em português</a></li>
+                        <li class="submenu"><a href="#">Em inglês</a></li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <div id="stickerNatal">
+        <span class="textosticker"> Promocao de Natal</span>
+    </div>
+    <hr id="separador">
+    <main>
+        <div class="data">
+data em javascript
+        </div>
+
+
+        <section id="menulateral">
+
+            <ul id="tabhorizontal">
+
+                <li><a href="#">Jamie Oliver</a></li>
+                <li> <a href="#">Valter Hugo Mae</a> </li>
+                <li><a href="#">Manuel Carvalho</a> </li>
+                <li> <a href="#">Isabel Allende</a> </li>
+                <li> <a href="#">Premio Nobel 2015</a> </li>
+
+            </ul>
+<div>
+            <img src="../imagens/tab1.png">
+</div>
+        </section>
+
+        <div id="livros">
+            <span class="texto"><p>Promoções</p></span>
+            <div class="janelalivros"><a href="#"><img src="../imagens/no_teu_olhar.jpg" class="livrocapa">
+                <p>No teu Olhar</p>
+                <p>15&euro;</p></a>
+            </div>
+            <div class="janelalivros"><a href="#"><img src="../imagens/o_amante_japones.jpg" class="livrocapa">
+                <p>O Amante Japones</p>
+                <p>25&euro;</p></a>
+            </div>
+            <div class="janelalivros"><a href="#"><img src="../imagens/asterix_o_papiro_de_cesar.jpg" class="livrocapa">
+                <p>Astérix ‐ O Papiro de<br> César</p>
+                <p>18&euro;</p></a>
+            </div>
+            <div class="janelalivros ultima"><a href="#"><img src="../imagens/as_flores_de_lotus.jpg" class="livrocapa">
+                <p>As Flores de Lótus</p>
+                <p>28&euro;</p></a>
+            </div>
+
+
+        </div>
+        <aside id="newsletter">
+            <span class="texto">
+                <p>Newsletter</p>
+            </span>
+            <div class="caixa">
+                <form class="formnews" action="reg_newsletter.php">
+
+                    <p><label for="nome">Nome:</label><br><input type="text" id="nome" name="nome" maxleght="40" required> </p>
+
+                    <p> <label for="email">Endereço de email:</label>
+                        <br><input type="email" id="email" name="email" maxlength="40" required>
+
+                        <input type="image" src="../imagens/submeter_formulario.png" id="btsubmit" name="btsubmit" value="Efectuar Registo"> </p>
+
+                    <p> Formato :</p>
+                    <input type="radio" id="pfd" name="formato" checked><label for="pdf">PDF</label>
+                    <input type="radio" id="html" name="formato"><label for="html"> HTML </label>
+
+                    <p> Registe-se na nossa newsletter para receber informação sobre as nossas novidades.</p>
+                </form>
+            </div>
+        </aside>
+        <hr class="separadorpromocoes">
+
+        <section id="destaque">
+            <span class="texto">
+               Em destaque
+                
+            </span>
+            <div><img src="../imagens/as_pessoas_felizes_leem_e_bebem_cafe.jpg" class="emdestaque"> </div>
+
+            <div id="balaointeiro"><span class="balao dentro"><p>Poupe 50% </p></span></div>
+            <div id="balaointeiro2"><span class="balao cinza dentro"><p>Envio Gratis</p> </span></div>
+            <div id="balaointeiro3"><span class="balao verde dentro"> <p>Entrega 24h</p></span></div>
+
+            <h4>As Pessoas Felizes Lêem e Bebem Café</h4>
+
+            <p>Agnes Martin-Lugand</p>
+
+            <p>O romance que conquistou mais de 150.000 leitores em França.</p>
+
+            <p>Depois da morte do marido e da filha num brutal acidente de automóvel, Diane fecha-se em casa<br> durante um ano, imersa em recordações, incapaz de reagir. Mas, quando já nada parece poder mudar, é <br>precisamente uma dessas recordações que a faz escolher Mulranny, uma pequeníssima aldeia na <br>Irlanda, como destino.</p>
+
+        </section>
+
+        <hr class="separadorpromocoes">
+
+        <footer class="footer1">
+            <a href="#">Cartão Wookmais</a> |<a href="#"> Programa de Afiliados </a>|<a href="#"> Condições gerais de venda</a> |<a href="#"> Compras 100% seguras</a> |<a href="#"> Política de Privacidade</a> |<a href="#"> Ajuda</a>
+
+            <p>©1999/2015 Grupo Porto Editora. Todos os direitos reservados, Porto, Portugal | Este site está conforme o novo Acordo Ortográfico.
+                <br>Salvo indicação em contrário, os descontos apresentados referem-se a promoções válidas para o dia 03-12-2015</p>
+        </footer>
+
+    </main>
+    <!--<footer class="footer2">A utilização de cookies neste website tem como principal objetivo melhorar a sua experiência. Ao clicar em qualquer link nesta página está a dar-nos permissão para usar cookies.</footer>-->
+    <script src="../javascript/index.js"></script>
+</body>
+
+</html>
